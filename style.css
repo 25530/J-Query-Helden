@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato';
+}
+header{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 0.5em;
+}
+.afb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    height: 30%; 
+  }
+    .box img{
+        width: 80%;
+        height: 20em;
+    }
+    footer{
+        background-color: rgb(49, 49, 49);
+        color: white;
+        padding: 0.5em;
+        margin-top: 8em;
+        position: relative;
+    }
